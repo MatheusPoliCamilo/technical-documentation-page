@@ -1,8 +1,157 @@
 <!DOCTYPE html>
+
 <head>
-  <title>Document</title>
+  <title>FCC: Technical Documentation Page</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+
+  <style>
+    @media (min-width: 770px) {
+      div.column.is-3 {
+        min-width: 292px;
+      }
+    }
+  </style>
 </head>
+
 <body>
-  
+  <main id="main-doc">
+    <div class="columns">
+      <div class="column is-3">
+        <nav id="navbar">
+          <section class="section">
+            <header class="title">New World - Character Progression</header>
+            <ul>
+              <li><a href="#Introduction" class="nav-link">Introduction</a></li>
+              <li><a href="#Summary" class="nav-link">Summary</a></li>
+              <li><a href="#Core_Attributes" class="nav-link">Core Attributes</a></li>
+              <li><a href="#Trade_Skills" class="nav-link">Trade Skills</a></li>
+              <li><a href="#Weapon_Mastery" class="nav-link">Weapon Mastery</a></li>
+            </ul>
+          </section>
+        </nav>
+      </div>
+      <div class="column is-9">
+        <section class="section main-section" id="Introduction">
+          <header class="title">Introduction</header>
+          <h2 class="subtitle has-text-justified">
+            <p>
+              To survive and thrive in New World, you will need to overcome many challenges, learning new skills and
+              abilities as you adventure forward. Characters progress across three major categories: Core Attributes,
+              Trade Skills, and Weapon Mastery. While you are free to master as many or as few weapons and Trade Skills
+              as you like, your Core Attributes ultimately govern a large part of how powerful you are relative to the
+              various hostile creatures and other players in Aeternum.
+            </p>
+          </h2>
+        </section>
+
+        <section class="section main-section" id="Summary">
+          <header class="title">Summary</header>
+          <h2 class="subtitle has-text-justified mt-1">
+            <p><strong>Collecting skills</strong></p>
+            <p>
+              <li>Mining (<code>Strength</code>): stone and ore.</li>
+            </p>
+            <p>
+              <li>Skin (<code>Dexterity</code>): Animal skins.</li>
+            </p>
+            <p>
+              <li>Wood extraction (<code>Constitution</code>): wood.</li>
+            </p>
+            <p>
+              <li>Fishing (<code>Focus</code>): Fish.</li>
+            </p>
+            <p>
+              <li>Harvest (<code>Intelligence</code>): fiber, fruits and vegetables.</li>
+            </p>
+
+            <p class="mt-5"><strong>Refinement Skills</strong></p>
+            <p>
+              <li>Casting: refine the ore into ingots.</li>
+            </p>
+            <p>
+              <li>Stonework: Refine stones into blocks and cut gems.</li>
+            </p>
+            <p>
+              <li>Carpentry: turning wood into firewood.</li>
+            </p>
+            <p>
+              <li>Tannery: refines skins into leathers.</li>
+            </p>
+            <p>
+              <li>Weaving: refine fibers into fabrics.</li>
+            </p>
+
+            <p class="mt-5"><strong>Craft Skills</strong></p>
+            <p>
+              <li>Weapon forging: Create melee weapons.</li>
+            </p>
+            <p>
+              <li>Armor forging: Make light and heavy armor.</li>
+            </p>
+            <p>
+              <li>Jewelry making: make adornments.</li>
+            </p>
+            <p>
+              <li>Engineering: making long-range weapons and ammunition.</li>
+            </p>
+            <p>
+              <li>Arcane: Make potions, extracts and magic weapons.</li>
+            </p>
+            <p>
+              <li>Cuisine: make magical meals and drinks.</li>
+            </p>
+            <p>
+              <li>Furniture: make furniture, storage and trophies for homes.</li>
+            </p>
+        </section>
+
+        <section class="section main-section" id="Core_Attributes">
+          <header class="title">Core Attributes</header>
+          <h2 class="subtitle has-text-justified">
+            <p>
+              When you first arrive in Aeternum, your Character will have 5 points in each of the core attributes and
+              you cannot drop below that 5-point minimum. Each time your Character levels up, you are granted Attribute
+              Points to spend on whichever Attribute(s) you choose. Gains from Attributes are soft-capped at 195 points.
+              You can go beyond the soft cap with the help of armor, weapons, and trinkets, but there are diminishing
+              returns starting at 100 points. If you feel you’ve placed a point in error or you want to switch up your
+              total point allocation, you can redistribute (respec) your attributes for a small fee. The cost to respec
+              increases as you increase in level, however, so keep that in mind!
+            </p>
+          </h2>
+        </section>
+
+        <section class="section main-section" id="Trade_Skills">
+          <header class="title">Trade Skills</header>
+          <h2 class="subtitle has-text-justified">
+            <p>
+              Trade Skills make up a variety of non-combat skills that you can master. There are 5 Gathering Skills, 5
+              Refining Skills, and 7 Crafting Skills.
+            </p>
+          </h2>
+        </section>
+
+        <section class="section main-section" id="Weapon_Mastery">
+          <header class="title">Weapon Mastery</header>
+          <h2 class="subtitle has-text-justified">
+            <p>
+              Using a weapon in combat against creatures results in gaining XP for that weapon’s Mastery when those
+              creatures are defeated. Every weapon in the game can be mastered. Each Weapon Mastery has 2 Skill Trees,
+              and each Skill Tree has a selection of active abilities, passive modifiers, and bonuses that are exclusive
+              to that weapon. Leveling your Weapon Mastery grants a point that can be spent to unlock one of these
+              abilities, passives, or bonuses. However, it is not possible to unlock everything between both Mastery
+              Trees, so you’ll have to choose wisely. If you want to try out a different build for a weapon, you can
+              respec its Mastery Trees in exchange for some Azoth. We will dive deeper into Weapon Mastery in the
+              future. However you choose to fight, you’ll need to forge and discover powerful weapons to fit your
+              combat style. Whether battling in wars with other players or holding back waves of The Corrupted, your
+              combat skills will mean the difference between life and death.
+            </p>
+          </h2>
+        </section>
+      </div>
+    </div>
+  </main>
 </body>
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
 </html>
